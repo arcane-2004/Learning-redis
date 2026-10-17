@@ -1,0 +1,14 @@
+{
+    "name": "07-order-confirmation-jobs-with-bullmq",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "bullmq":"^5.4.2",
+        "express": "^5.2.1",
+        "ioredis": "^6.0.0"
+    }
+}
